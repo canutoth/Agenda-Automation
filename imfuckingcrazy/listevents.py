@@ -30,7 +30,7 @@ def main():
 
         now = dt.datetime.now().isoformat() + "Z"
 
-        event_result = service.events().list(calendarId = "primary", timeMin = now, maxResults = 1, singleEvents = True, orderBy = "startTime").execute()
+        event_result = service.events().list(calendarId = "primary", timeMin = now, maxResults = 10, singleEvents = True, orderBy = "startTime").execute()
 
         events = event_result.get("items", [])
 
