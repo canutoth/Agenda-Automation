@@ -1,5 +1,7 @@
-# theGayAgenda
+This project is yet to be finished.
 
-not ready yet bc college's been killing me, but the general idea is some kind of "alexa" that schedules stuff for me on a faster/more efficient way
+It currently schedules and lists events directly to/from a Google Calendar but it takes a very specific syntax on the code.
 
-using google calendar API rn for most of it, but ideally in the future i'll get around with something better that processes NL instead of having any sort of specific format for the prompts bc that kinda takes the whole "faster" idea away lol >.<
+The final version is meant to be more like some sort of "alexa" that schedules on a way faster and more efficient way that doesn't require any coding skills from the user at all but is not just all input options either.
+
+I'm using Google Calendar API right now for most of it, but ideally in the future I'll get around with something better that processes NL instead of having any sort of specific format for the prompts because that kinda takes the whole "faster" idea away lol.
